@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Climb Challenge</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body window.onload="loadAddress()">
+	<div id="climbChallenge" class="container">
+		<h1 class="text-center">Climb Challenge Address Book</h1>
+		<button id="startAdding" class="btn btn-primary center-block" onclick="showForm()">Start adding</button>
+	    <div class="row form-row">
+	    	<div class="col-sm-6 col-sm-offset-3">
+			    <form id="form" class="myForm">
+			        <div class="form-group">
+			            <input type="name" class="form-control" id="name" placeholder="Name">
+			        </div>
+			        <div class="form-group">
+			            <input type="phone" class="form-control" id="number" placeholder="Phone Number">
+			        </div>
+			        <div class="form-group">
+			            <input type="email" class="form-control" id="email" placeholder="Email Address">
+			        </div>
+			        <button type="submit" class="btn btn-primary" onclick="addContact()">Add</button>
+			        <button type="submit" class="btn btn-danger" id="cancel" onclick="hideForm()">Cancel</button>
+			    </form>
+			    <div id="addressBookList" class=""></div>
+			    <div id="fullView"></div>
+	    </div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

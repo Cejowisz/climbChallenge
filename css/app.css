@@ -1,0 +1,33 @@
+body{
+	background: url('../img/back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#form{
+	display: none;
+	margin-top: 50px;
+}
+#climbChallenge h1{
+	color: #fff;
+	margin-top: 100px;
+}
+#addressBookList{
+	display: none;
+}
+.addressName{
+	cursor: pointer;
+	color: #fff;
+	font-weight: 700;
+}
+.addressName:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+.b1{
+	margin-right: 5px;
+	padding: 2px 5px;
+}
+.view p{
+	color: #fff;
+	font-weight: 700;
+}
